@@ -1,16 +1,18 @@
 <?php
 /**
  * Plugin Name:     Unterseiten
- * Plugin URI:      PLUGIN SITE HERE
+ * Plugin URI:      https://github.com/pixolin/unterseiten
  * Description:     Shortcode [unterseiten]
  * Author:          Bego Mario Garde <pixolin@pixolin.de>
- * Author URI:      YOUR SITE HERE
+ * Author URI:      https://pixolin.de
  * Text Domain:     unterseiten
  * Domain Path:     /languages
  * Version:         0.1.0
  *
  * @package         Unterseiten
  */
+
+defined( 'ABSPATH' ) || die();
 
 add_shortcode( 'unterseiten', 'unterseiten_shortcode' );
 function unterseiten_shortcode( $atts ) {
